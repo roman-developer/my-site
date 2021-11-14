@@ -8,9 +8,11 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>My name is Jose Maria.</p>
-    <p>The website is under maintenance. Sorry for the inconvenience!</p>
+    <h1>
+      Jose Mª Roman,<br/>
+      Software Engineer and expert on Agile Management
+    </h1>
+    
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
@@ -19,12 +21,12 @@ const IndexPage = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
-    {/* <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p> */}
+
+    <h2>The website is under maintenance. Sorry for the inconvenience!</h2>
+
+    <p>
+      <Link to="/about/">About me</Link><br />
+    </p>
   </Layout>
 )
 
