@@ -7,8 +7,8 @@ const Menu = () => (
   <ul id="menuComponent" className="menu" style={{display: "none"}}>
     <li><BsFillHouseFill /> <Link className="menuItem" to="/">Home</Link></li>
     <li><BsFillPersonFill /> <Link className="menuItem" to="/about/">Mi perfil</Link></li>
-    <li><BsFillBriefcaseFill /> <Link className="menuItem" to="/">Experiencia</Link></li>    
-    <li><BsFillFileEarmarkCodeFill /> <Link className="menuItem" to="/">Proyectos</Link></li>
+    <li><BsFillBriefcaseFill /> <Link className="menuItem" to="/experience/">Experiencia</Link></li>    
+    <li><BsFillFileEarmarkCodeFill /> <Link className="menuItem" to="/projects/">Proyectos</Link></li>
   </ul>
 )
 
