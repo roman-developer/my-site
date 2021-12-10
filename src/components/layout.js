@@ -8,7 +8,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import { BsLinkedin, BsGithub, BsMedium } from "react-icons/bs";
 import Header from "./header"
 import "./layout.css"
 
@@ -34,16 +34,20 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
+      </div>
+      <footer
           style={{
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Creado por Jose Maria Roman
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
+          <a href='https://www.linkedin.com/in/josemariaroman/' target='_blank'><BsLinkedin /></a>
+          {` `}
+          <a href='https://github.com/roman-developer' target='_blank'><BsGithub /></a>
+          {` `}
+          <a href='https://jose-maria-roman.medium.com' target='_blank'><BsMedium /></a>
+      </footer>
     </>
   )
 }

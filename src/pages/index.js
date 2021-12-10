@@ -9,23 +9,25 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <h1>
-      Jose Mª Roman,<br/>
-      Software Engineer and expert on Agile Management
+      Hola!<br/>
+      Soy Jose,<br />
+      Ingeniero Software
     </h1>
     
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/profile-image.jpeg"
       width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
+      alt="My photo"
+      className="profile-image"
       style={{ marginBottom: `1.45rem` }}
     />
 
     <h2>The website is under maintenance. Sorry for the inconvenience!</h2>
 
     <p>
-      <Link to="/about/">About me</Link><br />
+      <Link to="/about/">Saber más</Link><br />
     </p>
   </Layout>
 )
