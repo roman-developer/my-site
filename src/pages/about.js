@@ -24,13 +24,13 @@ const About = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      Actualmente me encuentro trabajando en remoto como Ingeniero Software en <a href="http://domestika.org/" target='_blank'>Domestika</a>. En el area de adquisición de usuarios y eCommerce de la plataforma.
+      Actualmente me encuentro trabajando en remoto como Ingeniero Software en <a href="http://domestika.org/" target="_blank" rel="noreferrer">Domestika</a>. En el area de adquisición de usuarios y eCommerce de la plataforma.
     </p>
     <p>
-      También he trabajado como Líder de equipo en <a href="https://nucleoo.com/" target='_blank'>Nucleoo</a> (Granada), realizando tareas de ingeniería (programación, TDD y revisiones de código) y de gestión (aplicando metodologías ágiles como Scrum o Kanban, soporte a cliente, y training a compañeros).
+      También he trabajado como Líder de equipo en <a href="https://nucleoo.com/" target="_blank" rel="noreferrer">Nucleoo</a> (Granada), realizando tareas de ingeniería (programación, TDD y revisiones de código) y de gestión (aplicando metodologías ágiles como Scrum o Kanban, soporte a cliente, y training a compañeros).
     </p>
     <p>
-      Anteriormente trabajé, durante más de dos años, como Ingeniero Software (en desarrollo de aplicaciones web) para la compañía <a href="https://alight.com/ngahr" target='_blank'>NGA-HR (Alight)</a>, dedicada al sector de los RRHH donde participé de un proyecto propio de intercambio de información entre distintos sistemas de nóminas. Con mayor anterioridad trabajé también como programador web, durante casi 2 años, para Razorfish Healthware compañía perteneciente al Grupo Publicis, en el proyecto PersonasQue.
+      Anteriormente trabajé, durante más de dos años, como Ingeniero Software (en desarrollo de aplicaciones web) para la compañía <a href="https://alight.com/ngahr" target="_blank" rel="noreferrer">NGA-HR (Alight)</a>, dedicada al sector de los RRHH donde participé de un proyecto propio de intercambio de información entre distintos sistemas de nóminas. Con mayor anterioridad trabajé también como programador web, durante casi 2 años, para Razorfish Healthware compañía perteneciente al Grupo Publicis, en el proyecto PersonasQue.
     </p>
     <Link to="/">Ir al inicio</Link>
   </Layout>

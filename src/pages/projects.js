@@ -65,7 +65,7 @@ const Projects = () => (
       </p>
     </div>
 
-    <p> Puede visitar mi repositorio de Github donde hay otros proyectos en el siguiente enlace: <a href="https://github.com/roman-developer?tab=repositories" target="_blank">GitHub</a></p>
+    <p> Puede visitar mi repositorio de Github donde hay otros proyectos en el siguiente enlace: <a href="https://github.com/roman-developer?tab=repositories" target="_blank" rel="noreferrer">GitHub</a></p>
 
     <Link to="/">Ir al inicio</Link>
   </Layout>
