@@ -1,6 +1,6 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { AiOutlineCode, AiOutlineTeam } from "react-icons/ai";
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -8,19 +8,16 @@ import Seo from "../components/seo"
 const About = () => (
   <Layout>
     <Seo title="About" />
-    <h1>Sobre mí</h1>
-
     <div class="container">
       <div class="col-1">
-        <p>
-          { new Date().getFullYear() - new Date(2012,3,7).getFullYear() } años de experiencia en desarrollo web.
-        </p>
-        <p>
-          { new Date(2020,12,31).getFullYear() - new Date(2017,10,1).getFullYear() } años de experiencia en dirección de equipos.
-        </p>
+        <h1>Mi perfil</h1>
+        <div class="experience-years">
+          <AiOutlineCode />{' '}<strong>{ new Date().getFullYear() - new Date(2012,3,7).getFullYear() }</strong> años de experiencia en desarrollo web.<br />
+          <AiOutlineTeam />{' '}<strong>{ new Date(2020,12,31).getFullYear() - new Date(2017,10,1).getFullYear() }</strong> años de experiencia en dirección de equipos.
+        </div>
         <StaticImage
           src="../images/about.jpg"
-          width={300}
+          width={400}
           quality={95}
           formats={["auto", "webp", "avif"]}
           alt="about"
@@ -39,8 +36,6 @@ const About = () => (
         </p>
       </div>
     </div>
-    
-    <Link to="/">Ir al inicio</Link>
   </Layout>
 )
 

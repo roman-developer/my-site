@@ -5,13 +5,25 @@ import { BsFillPersonFill, BsFillHouseFill, BsFillBriefcaseFill, BsFillFileEarma
 import { FaUniversity } from "react-icons/fa";
 
 const Menu = () => (
-  <ul id="menuComponent" className="menu" style={{display: "none"}}>
-    <li><BsFillHouseFill /> <Link className="menuItem" to="/">Home</Link></li>
-    <li><BsFillPersonFill /> <Link className="menuItem" to="/about/">Mi perfil</Link></li>
-    <li><BsFillBriefcaseFill /> <Link className="menuItem" to="/experience/">Experiencia</Link></li>    
-    <li><BsFillFileEarmarkCodeFill /> <Link className="menuItem" to="/projects/">Proyectos</Link></li>
-    <li><FaUniversity /> <Link className="menuItem" to="/education/">Formación</Link></li>
-  </ul>
+  <div id="menuComponent" class="menu" style={{display: "none"}}>
+    <div class="menu-container">
+      <div class="menu-col-1">
+        <BsFillHouseFill /> <Link className="menuItem" to="/">Home</Link>
+      </div>
+      <div class="menu-col-2">
+        <BsFillPersonFill /> <Link className="menuItem" to="/about/">Mi perfil</Link>
+      </div>
+      <div class="menu-col-3">    
+        <BsFillBriefcaseFill /> <Link className="menuItem" to="/experience/">Experiencia</Link>
+      </div> 
+      <div class="menu-col-4">
+        <BsFillFileEarmarkCodeFill /> <Link className="menuItem" to="/projects/">Proyectos</Link>
+      </div>
+      <div class="menu-col-5">
+        <FaUniversity /> <Link className="menuItem" to="/education/">Formación</Link>
+      </div>
+    </div>
+  </div>
 )
 
 export default Menu
