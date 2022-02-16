@@ -42,11 +42,11 @@ const Layout = ({ children }) => {
         >
           © {new Date().getFullYear()}, Creado por Jose Maria Roman
           {` `}
-          <a href='https://www.linkedin.com/in/josemariaroman/' target="_blank" rel="noreferrer"><BsLinkedin /> LinkedIn</a>
+          <BsLinkedin />{` `}<a href='https://www.linkedin.com/in/josemariaroman/' target="_blank" rel="noreferrer">LinkedIn</a>
           {` `}
-          <a href='https://github.com/roman-developer' target="_blank" rel="noreferrer"><BsGithub /> Github</a>
+          <BsGithub />{` `}<a href='https://github.com/roman-developer' target="_blank" rel="noreferrer">Github</a>
           {` `}
-          <a href='https://jose-maria-roman.medium.com' target="_blank" rel="noreferrer"><BsMedium /> Medium</a>
+          <BsMedium />{` `}<a href='https://jose-maria-roman.medium.com' target="_blank" rel="noreferrer">Medium</a>
       </footer>
     </>
   )

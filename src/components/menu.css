@@ -1,6 +1,6 @@
 .menu{
-  background: black;
-  color: white;
+  background-color: var(--background-primary-color);
+  color: var(--text-white-color);
   list-style: none;
   padding: 1rem;
   margin-left: 0;
