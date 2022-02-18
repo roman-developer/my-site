@@ -2,7 +2,7 @@
   --gradient-1-color: #A640FF;
   --gradient-2-color: #427bdfff;
   --main-color: #427bdfff;
-  --link-color: #4d86ea;
+  --link-color: #A640FF;
   --link-hover-color: #f2f5fa;
   --link-clicked-color: #cfd8e8;
   --background-primary-color: #101010;
@@ -15,6 +15,7 @@ body{
   background-color: var(--background-primary-color);
   color: var(--text-white-color) !important;
   font-family: 'Trebuchet MS', sans-serif;
+  padding-bottom: 4rem; 
 }
 
 /* unvisited link */
@@ -58,13 +59,15 @@ h1{
 
 footer{
   position: fixed;
+  left: 0;
   bottom: 0;
-  clear: both;
-  /* position: relative; */
-  margin-top: 1rem;
-  padding: 1rem;
+  width: 100%;
   color: var(--text-white-color);
-  background-color: linear-gradient(var(--background-primary-color) 0%, var(--background-secondary-color) 100%);
+  background-color: var(--background-primary-color);
+  text-align: center;
+  position: fixed;
+  padding: 1rem;  
+  height: 4rem;
 }
 
 .container {
