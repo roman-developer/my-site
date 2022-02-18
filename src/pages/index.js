@@ -8,6 +8,10 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
     <div class="container index-container">
       <div class="col-1" style={{alignSelf: "center"}}>
         <h1>
