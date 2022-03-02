@@ -9,6 +9,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { BsLinkedin, BsGithub, BsMedium } from "react-icons/bs";
+import { SiGatsby } from "react-icons/si";
 import Header from "./header"
 import "./layout.css"
 
@@ -40,13 +41,11 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Creado por Jose Maria Roman
-          {` `}
-          <BsLinkedin />{` `}<a href='https://www.linkedin.com/in/josemariaroman/' target="_blank" rel="noreferrer">LinkedIn</a>
-          {` `}
-          <BsGithub />{` `}<a href='https://github.com/roman-developer' target="_blank" rel="noreferrer">Github</a>
-          {` `}
-          <BsMedium />{` `}<a href='https://jose-maria-roman.medium.com' target="_blank" rel="noreferrer">Medium</a>
+          © {new Date().getFullYear()}, Creado por Jose Maria Roman. Desarrollado en <a href='https://www.gatsbyjs.com/' target="_blank" rel="noreferrer">GatsbyJS <SiGatsby /></a>
+          <br/>
+          {`  `}<a href='https://www.linkedin.com/in/josemariaroman/' target="_blank" rel="noreferrer"><BsLinkedin /> LinkedIn</a>
+          {`  `}<a href='https://github.com/roman-developer' target="_blank" rel="noreferrer"><BsGithub /> Github</a>
+          {`  `}<a href='https://jose-maria-roman.medium.com' target="_blank" rel="noreferrer"><BsMedium /> Medium</a>
       </footer>
     </>
   )
